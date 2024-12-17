@@ -1,14 +1,16 @@
-# Use an official Nginx image
-FROM nginx:alpine
+FROM node:14-alpine
 
-# Copy project files into the container
-COPY index.html /usr/share/nginx/html/
-COPY style.css /usr/share/nginx/html/
-COPY main.js /usr/share/nginx/html/
-COPY img/ /usr/share/nginx/html/img/
+# Install git to clone the repo
+RUN apk add --no-cache git
 
-# Expose port 80 to the outside world
-EXPOSE 80
+# Clone your GitHub repository
+RUN git clone https://github.com/stevenbenalcazar/EXAMEN-IMG.git /app
 
-# Start Nginx server
-CMD ["nginx", "-g", "daemon off;"]
+# Set the working directory
+WORKDIR /app
+
+# Expose port
+EXPOSE 8080
+
+# Run your app (adjust if needed)
+CMD ["npm", "start"]
