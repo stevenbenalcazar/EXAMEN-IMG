@@ -1,10 +1,5 @@
-Laboratório 02
+Laboratorio 02
 
-Tema: Galeria de Imagens
-1 Seguir as instruções existentes em: 
-https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Image_gallery
-2 Na pasta imagens, substitua as imagens padrão do exemplo por outras de um tema que você gosta (similar ao do laboratório 01)
-3 Crie a aplicação seguindo o passo-a-passo sugerido
-4 Submeta o link de um arquivo “Google Presentation”  com: 
-prints da demonstração do seu aplicativo e ao final,
-link do seu repositório do GitHub onde os fontes deve estar armazenados.
+Tema: Galería de imágenes 
+##1 Siga las instrucciones existentes en: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Image_gallery 
+##2 En pasta imágenes, sustituya las imágenes padrão do exemplo por otras de um tema que você gosta (similar al laboratório 01) 3 Grite a aplicação seguindo o paso a paso sugerido 4 Submeta o enlace de un archivo “Presentación de Google” con: impresiones de la demostración de su aplicación y al final, enlace de su repositorio de GitHub donde las fuentes deben estar armadas.
