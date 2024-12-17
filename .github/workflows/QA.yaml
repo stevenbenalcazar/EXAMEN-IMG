@@ -34,4 +34,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker push my-web-app
+        run: docker push sabenalcazarm/my-web-app
